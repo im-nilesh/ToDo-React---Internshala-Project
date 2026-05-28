@@ -1,15 +1,18 @@
 import ToDoItem from "./ToDoItem";
 
-const ToDoList = () => {
+function ToDoList({ todos }) {
   return (
     <div>
       <input type="text" />
       <button>Add</button>
       <div>
-        <ToDoItem />
+        {todos.map((item) => {
+          return <ToDoItem item={item} />;
+        })}
       </div>
+      <div></div>
     </div>
   );
-};
+}
 
 export default ToDoList;
