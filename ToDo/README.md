@@ -25,8 +25,10 @@ npm run dev
 
 Open the local server link shown in the terminal.
 
+## Github Repo Link
+
+https://github.com/im-nilesh/ToDo-React---Internshala-Project
+
 ## Author
 
 Nilesh D
-
-Github Repo Link : https://github.com/im-nilesh/ToDo-React---Internshala-Project
