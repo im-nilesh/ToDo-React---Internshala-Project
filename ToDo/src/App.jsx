@@ -4,15 +4,19 @@ import Header from "./components/Header";
 import ToDoList from "./components/ToDoList";
 
 function App() {
-  const [todos, setTodos] = useState([]);
-  setTodos();
-  const Todo = [
+  const todoList = [
     {
       id: 1,
       desc: "Create a Todo App",
       status: "Done",
     },
+    {
+      id: 2,
+      desc: "Hello",
+      status: "Done",
+    },
   ];
+  const [todos, setTodos] = useState(todoList);
 
   return (
     <>
